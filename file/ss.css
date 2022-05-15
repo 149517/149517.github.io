@@ -1,0 +1,54 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    /*background-color: #dbdbdb;*/
+    background-image: url("../image/wallhaven-95mrx8_1280x720.png");
+    background-size: cover;
+    display: flex;
+
+    justify-content: center;
+}
+
+.container{
+    width: 1500px;
+    height: 100%;
+    /*background-color: #adeeb0;*/
+    float: left;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+nav ul li{
+    margin-top: 0;
+}
+.nav-a{
+    display: block;
+    background-color: #4fb4e5;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav ul>li + li{
+    margin-left: 20px;
+}
+.nav-right{
+    margin-left: auto;
+}
+.nav-a:hover{
+    background-color: #f8ea98;
+}
+.current{
+    background-color: #ffdada;
+}
+
